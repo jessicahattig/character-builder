@@ -8,7 +8,7 @@
 <body>
 <h1>DND Character Builder</h1>
 
-<form id="character-type">
+<form id="character-builder">
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae! Esse inventore ex, dolorum iure non amet eum ipsam molestiae illum quidem perferendis, nesciunt facere mollitia animi blanditiis libero! Nulla!</p>
   <select id="class">
     <option>Elf</option>
@@ -25,9 +25,14 @@
       <label for="male">Male</label><br>
       <input type="radio" name="gender" value="Female">
       <label for="female">Female</label><br>
+      <input type="radio" name="gender" value="Non-Binary">
+      <label for="non-binary">Non-Binary</label><br>
 
     </label>
   <button type="submit">Submit Selection</button>
 </form>
+
+<h2>Here is your character!</h2>
+<p id="output"></p>
 </body>
 </html>
